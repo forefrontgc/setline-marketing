@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Setline — Construction software for general contractors</title>
+    <meta
+      name="description"
+      content="Setline is the bid and project management portal built for civil contractors. Built by Forefront GC. Launching soon."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter+Tight:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f4f1ea;
+        --sf: #faf8f2;
+        --bd: #e2ddd1;
+        --tx: #1a2419;
+        --tm: #4d5648;
+        --td: #7a7d70;
+        --brand: #1f4a2c;
+        --brand-deep: #142e1c;
+        --brand-soft: #d9e3d9;
+        --brand-on: #f4f1ea;
+      }
+      * { box-sizing: border-box; }
+      html, body {
+        margin: 0;
+        padding: 0;
+        background: var(--bg);
+        color: var(--tx);
+        font-family: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 14.5px;
+        line-height: 1.55;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      main {
+        flex: 1;
+        max-width: 720px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 12vh 24px 6vh;
+      }
+      .wordmark {
+        font-family: 'Fraunces', Georgia, serif;
+        font-weight: 500;
+        font-size: 56px;
+        letter-spacing: -0.02em;
+        color: var(--brand);
+        margin: 0 0 4px;
+      }
+      .wordmark em {
+        color: var(--brand-deep);
+        font-style: italic;
+      }
+      .tag {
+        font-size: 11.5px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--td);
+        margin: 0 0 40px;
+      }
+      .lede {
+        font-family: 'Fraunces', Georgia, serif;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 1.45;
+        color: var(--tx);
+        margin: 0 0 28px;
+        max-width: 580px;
+      }
+      .body {
+        font-size: 15px;
+        color: var(--tm);
+        margin: 0 0 36px;
+        max-width: 580px;
+      }
+      .body p { margin: 0 0 14px; }
+      .card {
+        background: var(--sf);
+        border: 1px solid var(--bd);
+        border-radius: 10px;
+        padding: 20px 22px;
+        margin-bottom: 28px;
+        max-width: 580px;
+        box-shadow: 0 1px 2px rgba(26, 36, 25, 0.04);
+      }
+      .card-label {
+        font-size: 11.5px;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--tm);
+        margin: 0 0 6px;
+      }
+      .card-value {
+        font-size: 14.5px;
+        color: var(--tx);
+      }
+      .card-value a {
+        color: var(--brand);
+        text-decoration: none;
+        border-bottom: 1px solid var(--brand-soft);
+      }
+      .card-value a:hover {
+        border-bottom-color: var(--brand);
+      }
+      footer {
+        max-width: 720px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 24px 32px;
+        border-top: 1px solid var(--bd);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px 24px;
+        align-items: baseline;
+        font-size: 12.5px;
+        color: var(--td);
+      }
+      footer .copy { flex: 1; min-width: 180px; }
+      footer nav { display: flex; gap: 16px; flex-wrap: wrap; }
+      footer a {
+        color: var(--tm);
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+      }
+      footer a:hover {
+        color: var(--brand);
+        border-bottom-color: var(--brand-soft);
+      }
+      @media (max-width: 560px) {
+        main { padding-top: 8vh; }
+        .wordmark { font-size: 44px; }
+        .lede { font-size: 19px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 class="wordmark">Setline<em>.</em></h1>
+      <p class="tag">Coming soon</p>
+
+      <p class="lede">
+        Construction software for general contractors — built by people who run the bids,
+        run the jobs, and have to live with whatever the office tools cost them.
+      </p>
+
+      <div class="body">
+        <p>
+          Setline is a single workspace for the bid table and the active job: bid schedules,
+          plan room invites, addenda, schedule of values, change orders, pay applications,
+          T&amp;M billing, and the closeout punch list. We are launching with Forefront GC
+          and onboarding a small cohort of municipal infrastructure contractors next.
+        </p>
+        <p>
+          The platform is live for our first customer today. Public sign-ups open shortly.
+        </p>
+      </div>
+
+      <div class="card">
+        <p class="card-label">Get in touch</p>
+        <p class="card-value">
+          <a href="mailto:hello@setline.tech">hello@setline.tech</a>
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <span class="copy">© 2026 Setline</span>
+      <nav>
+        <a href="/legal/privacy">Privacy</a>
+        <a href="/legal/terms">Terms</a>
+        <a href="/legal/cookies">Cookies</a>
+      </nav>
+    </footer>
+  </body>
+</html>
