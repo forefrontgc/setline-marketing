@@ -8,7 +8,9 @@ Vercel's static deploy. No build step, no framework, no dependencies.
 
 ## What lives here
 
-- `index.html` — the "Coming soon" page (Setline wordmark, value-prop, contact)
+- `index.html` — the split-screen landing page (Setline wordmark + value-prop
+  on cream, a faux Projects dashboard on deep green) with `mailto:`-based
+  early-access / waitlist capture to `hello@setline.tech`
 - `vercel.json` — single redirect rule (none today; reserved for future)
 - That's it.
 
